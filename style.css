@@ -1,0 +1,100 @@
+/*BOX MODELS: caracteristicas das caixas.
+Toda TAG é uma caixa, com: altura, largura, conteudo(imagem, texto...), preenchimento "padding"(espaço entre borda e caixa, funciona jogando o conteudo para o centro ou para as laterais da borda), borda "border"(limite da caixa) e margem "margin"(espaçamento fora da borda, delimita o quanto a caixa pode aumentar ou diminuir de tamanho, ou seja, sua expansão ou retração relacionado ao espaço que tem existe fora).*/
+
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.page{    
+    width: 1000px;
+    margin: 65px auto 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Display flex se comporta em eixo, seja no X ou Y, neste caso alinhamos os itens no centro do eixo X.*/
+    margin-bottom: 58px;
+}
+
+nav img {
+    padding-bottom: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+    }
+
+a {
+    color: #1f1534c0;
+    text-decoration: none;
+}
+
+a:hover { /*Com : cria-se uma pseudo-class*/
+    font-weight: bold;
+
+}
+
+ul, h1  {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #1f1534;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+p {
+    color: #7d7987;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 0px 0 40px;
+
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 19px;
+    }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+#balls {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
